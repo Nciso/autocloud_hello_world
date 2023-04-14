@@ -12,6 +12,6 @@ variable "question2" {
 
 variable "question3" {
   type        = "list(string)"
-  default     = []
+  default     = ["hello", "world"]
   description = "This is a list of things"
 }
